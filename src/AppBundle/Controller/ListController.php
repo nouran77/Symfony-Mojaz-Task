@@ -54,6 +54,7 @@ class ListController extends Controller
      * @param $id
      * @return JsonResponse
      * @Route("/api/list/{id}")
+     * @Method("GET")
      */
 
     public function getListItems($id)
@@ -86,6 +87,17 @@ class ListController extends Controller
     {
 
         $list = new ListItem();
+
+        $validator = $this->get('validator');
+
+        $errors = $validator->validate($list);
+
+        if (count($errors) > 0) {
+
+            $errorsString = (string) $errors;
+
+            return new Response($errorsString);
+        }
 
         $title = $request->get('title');
 

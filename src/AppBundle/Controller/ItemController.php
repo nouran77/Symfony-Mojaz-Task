@@ -8,7 +8,6 @@
 
 namespace AppBundle\Controller;
 
-
 use AppBundle\Entity\Item;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -37,6 +36,18 @@ class ItemController extends Controller
         }
 
         $item = new Item();
+
+
+        $validator = $this->get('validator');
+
+        $errors = $validator->validate($item);
+
+        if (count($errors) > 0) {
+
+            $errorsString = (string) $errors;
+
+            return new Response($errorsString);
+        }
 
         $title = $request->get('title');
 

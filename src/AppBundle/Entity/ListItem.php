@@ -9,6 +9,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
+use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 
 
@@ -27,6 +28,7 @@ class ListItem
 
     /**
      * @ORM\Column(type="string")
+     * @Assert\NotBlank(message="Please add List Title")
      */
     public $title;
 
