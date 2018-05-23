@@ -43,11 +43,10 @@ class ListController extends Controller
 
         $lists = $this->getDoctrine()->getRepository('AppBundle:ListItem')->findAll();
 
-        $data = [
-            'lists' => $lists
-        ];
 
-        return new JsonResponse($data);
+        $data = $this->container->get('jms_serializer')->serialize($lists, 'json');
+
+        return new Response($data);
     }
 
     /**
