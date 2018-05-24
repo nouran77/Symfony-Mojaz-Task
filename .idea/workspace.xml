@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16c4f460-0df3-4976-b198-426aa548206f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/symfonyProject.iml" afterPath="$PROJECT_DIR$/.idea/symfonyProject.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ListController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ListController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ListController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding>
                 <element signature="e#127#157#0#PHP" expanded="true" />
               </folding>
@@ -40,8 +42,30 @@
       <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="195">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="e#123#165#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,23 +77,23 @@
             <state relative-caret-position="60">
               <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
-                <marker date="1527118786445" expanded="true" signature="1163:1254" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-                <marker date="1527118786445" expanded="true" signature="1271:2002" ph="{...}" />
-                <marker date="1527118786445" expanded="true" signature="1300:1853" ph="[...]" />
-                <marker date="1527118786445" expanded="true" signature="1883:1925" ph="[...]" />
-                <marker date="1527118786445" expanded="true" signature="1954:1996" ph="[...]" />
-                <marker date="1527118786445" expanded="true" signature="2018:2055" ph="{&quot;sort-packages&quot;: true...}" />
-                <marker date="1527118786445" expanded="true" signature="2324:2383" ph="{&quot;file&quot;: &quot;app/config/parameters.yml&quot;...}" />
+                <marker date="1527167848331" expanded="true" signature="1211:1302" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
+                <marker date="1527167848331" expanded="true" signature="1319:2050" ph="{...}" />
+                <marker date="1527167848331" expanded="true" signature="1348:1901" ph="[...]" />
+                <marker date="1527167848331" expanded="true" signature="1931:1973" ph="[...]" />
+                <marker date="1527167848331" expanded="true" signature="2002:2044" ph="[...]" />
+                <marker date="1527167848331" expanded="true" signature="2066:2103" ph="{&quot;sort-packages&quot;: true...}" />
+                <marker date="1527167848331" expanded="true" signature="2372:2431" ph="{&quot;file&quot;: &quot;app/config/parameters.yml&quot;...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+            <state relative-caret-position="120">
+              <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -78,8 +102,18 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            <state relative-caret-position="351">
+              <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -107,18 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListItem.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/ListItem.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-              <folding>
-                <element signature="e#123#171#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -127,15 +149,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/lists/show.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/ListItem.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Item.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/ItemController.php" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/ListController.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
       </list>
     </option>
   </component>
@@ -147,7 +171,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="510" />
+    <option name="x" value="9" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="713" />
@@ -393,24 +417,24 @@
       <workItem from="1526839071146" duration="1390000" />
       <workItem from="1527096685055" duration="395000" />
       <workItem from="1527097311532" duration="7778000" />
-      <workItem from="1527117107067" duration="1694000" />
+      <workItem from="1527117107067" duration="4133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27702000" />
+    <option name="totallyTimeSpent" value="30141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="510" y="23" width="1280" height="713" extended-state="0" />
-    <editor active="true" />
+    <frame x="9" y="23" width="1280" height="713" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28236246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28236246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25281805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25281805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -476,13 +500,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1527118786445" expanded="true" signature="1163:1254" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-            <marker date="1527118786445" expanded="true" signature="1271:2002" ph="{...}" />
-            <marker date="1527118786445" expanded="true" signature="1300:1853" ph="[...]" />
-            <marker date="1527118786445" expanded="true" signature="1883:1925" ph="[...]" />
-            <marker date="1527118786445" expanded="true" signature="1954:1996" ph="[...]" />
-            <marker date="1527118786445" expanded="true" signature="2018:2055" ph="{&quot;sort-packages&quot;: true...}" />
-            <marker date="1527118786445" expanded="true" signature="2324:2383" ph="{&quot;file&quot;: &quot;app/config/parameters.yml&quot;...}" />
+            <marker date="1527167848331" expanded="true" signature="1211:1302" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
+            <marker date="1527167848331" expanded="true" signature="1319:2050" ph="{...}" />
+            <marker date="1527167848331" expanded="true" signature="1348:1901" ph="[...]" />
+            <marker date="1527167848331" expanded="true" signature="1931:1973" ph="[...]" />
+            <marker date="1527167848331" expanded="true" signature="2002:2044" ph="[...]" />
+            <marker date="1527167848331" expanded="true" signature="2066:2103" ph="{&quot;sort-packages&quot;: true...}" />
+            <marker date="1527167848331" expanded="true" signature="2372:2431" ph="{&quot;file&quot;: &quot;app/config/parameters.yml&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -776,13 +800,6 @@
           <folding>
             <element signature="e#127#157#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -800,14 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/ListItem.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -836,34 +845,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
-            <marker date="1527118786445" expanded="true" signature="1163:1254" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-            <marker date="1527118786445" expanded="true" signature="1271:2002" ph="{...}" />
-            <marker date="1527118786445" expanded="true" signature="1300:1853" ph="[...]" />
-            <marker date="1527118786445" expanded="true" signature="1883:1925" ph="[...]" />
-            <marker date="1527118786445" expanded="true" signature="1954:1996" ph="[...]" />
-            <marker date="1527118786445" expanded="true" signature="2018:2055" ph="{&quot;sort-packages&quot;: true...}" />
-            <marker date="1527118786445" expanded="true" signature="2324:2383" ph="{&quot;file&quot;: &quot;app/config/parameters.yml&quot;...}" />
+            <marker date="1527167848331" expanded="true" signature="1211:1302" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
+            <marker date="1527167848331" expanded="true" signature="1319:2050" ph="{...}" />
+            <marker date="1527167848331" expanded="true" signature="1348:1901" ph="[...]" />
+            <marker date="1527167848331" expanded="true" signature="1931:1973" ph="[...]" />
+            <marker date="1527167848331" expanded="true" signature="2002:2044" ph="[...]" />
+            <marker date="1527167848331" expanded="true" signature="2066:2103" ph="{&quot;sort-packages&quot;: true...}" />
+            <marker date="1527167848331" expanded="true" signature="2372:2431" ph="{&quot;file&quot;: &quot;app/config/parameters.yml&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -871,10 +864,60 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ListController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
             <element signature="e#127#157#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#123#165#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
