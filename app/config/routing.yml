@@ -7,3 +7,6 @@ app.swagger_ui:
     defaults: { _controller: nelmio_api_doc.controller.swagger_ui }
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+api_login_check:
+    path: /api/login

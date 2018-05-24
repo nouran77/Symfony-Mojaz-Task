@@ -81,3 +81,9 @@ fos_user:
     from_email:
         address: "nouran.nayel@hotmail.com"
         sender_name: "FOSUser Test"
+
+lexik_jwt_authentication:
+    private_key_path: '%kernel.root_dir%/../config/jwt/private.pem'
+    public_key_path:  '%kernel.root_dir%/../config/jwt/public.pem'
+    pass_phrase:      '123456'
+    token_ttl:        3600
